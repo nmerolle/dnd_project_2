@@ -1,0 +1,3 @@
+module Dnd5eClassSpells2
+  VERSION = "0.1.0"
+end
