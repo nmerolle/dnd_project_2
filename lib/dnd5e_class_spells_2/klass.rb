@@ -1,4 +1,4 @@
-class  Dnd5eClassSpells::Klass
+class  Dnd5eClassSpells2::Klass
   attr_accessor :name, :klass_index
   
   @@all = []
@@ -15,7 +15,6 @@ class  Dnd5eClassSpells::Klass
   end
     
   def self.all
-    Dnd5eClassSpells::API.get_klasses if @@all.empty? 
     @@all
   end
   

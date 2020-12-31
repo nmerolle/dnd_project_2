@@ -1,6 +1,6 @@
 class  Dnd5eClassSpells2::Spell
   
-  attr_accessor :name, :desc, :spell_index 
+  attr_accessor :name, :desc, :spell_index , :klass
   
   @@all = []
   
